@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Signup-page</title>
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-  
-     <div class="container-fluid" style="background-image: url('img_music.png')";>
-       
+  <body>
+    <div
+      class="container-fluid"
+      style="background-image: url('img_music.png')"
+      ;
+    >
       <div class="text-center">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFyvaRZOb8VhhbuV1AeUT-ILv7ZjFbEIs_4w&usqp=CAU" class="rounded mx-auto d-block" alt="pictures_of_musical_instruments_1.jpg">
-              <h2 class="card-text">Music Performance Sign-Up</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFyvaRZOb8VhhbuV1AeUT-ILv7ZjFbEIs_4w&usqp=CAU"
+          class="rounded mx-auto d-block"
+          alt="pictures_of_musical_instruments_1.jpg"
+        />
+        <h2 class="card-text">Music Performance Sign-Up</h2>
       </div>
-      
-        <div class="row flex justify-content-center"> 
-          
+
+      <div class="row flex justify-content-center">
+        <div class="col-8">
           <form>
-            <div class="form-group-name; width: 350px; margin: auto">
+            <div class="form-group-name">
               <label for="exampleFormControlInput1">Full Name</label>
-              <input type="full name" class="form-control" id="exampleFormControlInput1" placeholder="First/Last Name">
+              <input
+                type="full name"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="First/Last Name"
+              />
             </div>
 
-            <div class="form-group-email; width: 60%">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="form-group-email">
+              <label for="exampleFormControlInput1">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
             </div>
-              
-            <div class="form-group; width: 50%; margin: auto">
-              <label for="exampleFormControlSelect1">Type of Instrument Played</label>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >Type of Instrument Played</label
+              >
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>--Type in here--</option>
                 <option>Piano</option>
@@ -45,28 +66,41 @@
                 <option>Flute</option>
                 <option>Other</option>
               </select>
-              </div>
-            
-              <div class="form-group; width: 400px; margin: 0">
-              <label for="exampleFormControlTextarea1">Other Comment</label>    
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
+            </div>
 
-              <div class="form-check; width: 50%">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                  Do you need to borrow instrument?
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Other Comment</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+              />
+              <label class="form-check-label" for="defaultCheck1">
+                Do you need to borrow instrument?
               </label>
-              </div>
+            </div>
 
-              <!-- Submit button -->
+            <!-- Submit button -->
 
-              <div class="text-center">
-              <input class="btn btn-primary btn-lg" type="submit" value="Submit">
-              </div>  
+            <div class="text-center">
+              <input
+                class="btn btn-primary btn-lg"
+                type="submit"
+                value="Submit"
+              />
+            </div>
           </form>
-       </div>
-    </div>  
-    
-</body>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
